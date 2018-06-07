@@ -1,0 +1,36 @@
+area 51 e-commerce
+
+server
+	1- api rest
+	2- tecnologia a definir
+
+	1- definicion de servicios
+		- consulta de todos los productos
+		- consulta detalle de un producto
+		- iniciar una compra
+		- confirmar una compra
+		- actualizar stock
+		- consulta de stock (por producto/talle/color)
+		- consulta talles por producto
+		- consulta colores por producto
+		- filtros
+		- consulta medios de pago
+		- consulta formas de envio o entrega
+		
+	1.1- servicios en la wish list
+		- login
+		- logout
+		- favoritos
+		- carritos
+		- contacto
+		- productos recomendados (?)
+
+	2- java o node js??
+
+frontend
+	1- angular 2
+	2- definir pantallas
+	
+base de datos
+	1- sql
+	2- definir las tablas o usar la bbd que ya existe (?)
