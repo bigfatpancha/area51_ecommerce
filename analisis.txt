@@ -25,12 +25,12 @@ server
 		- contacto
 		- productos recomendados (?)
 
-	2- java o node js??
+	2- java o node js?? creo que java. Para ganar mas experiencia.
 
 frontend
 	1- angular 2
 	2- definir pantallas
 	
 base de datos
-	1- sql
+	1- sql o CouchDB ??
 	2- definir las tablas o usar la bbd que ya existe (?)
