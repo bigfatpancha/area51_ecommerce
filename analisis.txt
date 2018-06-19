@@ -1,5 +1,14 @@
 area 51 e-commerce
 
+Pasos a seguir:
+ - Definir el modelo de negocio
+ - Definir los objetos/clases
+ - Definir los servicios
+ - Armar el swagger
+ - Generar las clases
+
+
+
 server
 	1- api rest
 	2- tecnologia a definir
@@ -34,3 +43,35 @@ frontend
 base de datos
 	1- sql o CouchDB ??
 	2- definir las tablas o usar la bbd que ya existe (?)
+	
+	
+---------------------------------------------------------------------------------
+Modelo:
+
+Producto
+	id
+	tipo
+	genero
+	talle
+	color
+	stock
+	precio
+	descripcion
+
+Compra
+	id
+	id_producto
+	
+	
+-------------------
+Servicios:
+
+Alta de un producto
+Baja de un producto
+Modificacion de un producto
+Compra de un producto
+
+
+------------------
+Analisis:
+Como manejan el stock? producto en general? talle? color?
