@@ -48,20 +48,25 @@ base de datos
 ---------------------------------------------------------------------------------
 Modelo:
 
-Producto
-	id
-	tipo
-	genero
-	talle
-	color
-	stock
-	precio
-	descripcion
+Producto:
+	id: string
+	tipo: enum?
+	precio: bigdecimal
+	descripcion: string
 
-Compra
-	id
-	id_producto
+ProductoGenerico extiende de Producto
+	generos: list<enum?>
+	talles: list<enum?>
+	colores: list<enum?>
+	stock: int
 	
+ProductoDetalle extiende de Producto	
+	genero: enum?
+	talle: enum?
+	color: enum?
+	
+compra
+	productos: list<ProductoDetalle>
 	
 -------------------
 Servicios:
@@ -70,7 +75,8 @@ Alta de un producto
 Baja de un producto
 Modificacion de un producto
 Compra de un producto
-
+Obtener todos los productos
+Obtener todos los productos con filtro
 
 ------------------
 Analisis:
