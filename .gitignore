@@ -13,7 +13,22 @@ log.txt
 npm-debug.log*
 
 frontend/node_modules/
+frontend/dist/
+frontend/bazel-*
+frontend/e2e_test.*
+frontend/bower_components
+frontend/tools/gulp-tasks/cldr/cldr-data/
 $RECYCLE.BIN/
+
+
+frontend/.c9
+frontend/.idea/
+frontend/.settings/
+frontend/*.swo
+frontend/modules/.settings
+frontend/.bazelrc
+frontend/.vscode
+frontend/modules/.vscode
 
 .DS_Store
 Thumbs.db
